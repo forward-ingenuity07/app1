@@ -21,6 +21,11 @@
                             'Device Model: '    + device.model    + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
     }
+	window.addEventListener("batterystatus", onBatteryStatus, false);
+
+	function onBatteryStatus(status) {
+    console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
+}
 
     </script>
   </head>

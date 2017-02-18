@@ -15,13 +15,16 @@
     <author href="http://phonegap.com" email="support@phonegap.com">
         PhoneGap Team
     </author>
+	<content src="index.html"></content>
+	
+	
 	<feature name="https://api.phonegap.com/1.0/device" />
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
         permission on your app, which PhoneGap requires.
     -->
-    <preference name="permissions"                value="none"/>
+    <preference name="permissions"                value="non"/>
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
