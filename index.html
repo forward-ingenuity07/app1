@@ -20,6 +20,9 @@
                             'Device UUID: '     + device.uuid     + '<br />' +
                             'Device Model: '    + device.model    + '<br />' +
                             'Device Version: '  + device.version  + '<br />';
+							
+	console.log(navigator.camera);
+	navigator.camera.getPicture(cameraSuccess, cameraError, cameraOptions);
     }
 	window.addEventListener("batterystatus", onBatteryStatus, false);
 
